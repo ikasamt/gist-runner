@@ -35,7 +35,7 @@ func RunCommand(filename string){
 	if err != nil {
 		log.Println(err)
 	}
-	log.Println("Output : %s", string(out))
+	log.Println("Output : ", string(out))
 }
 
 func RunGist(client *github.Client, gistID string){
